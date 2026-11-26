@@ -7,7 +7,7 @@ const TIPOS_SERVICO = ['Serviços domésticos', 'Limpeza e faxina', 'Babá', 'Cu
     'Manutenção e reparos', 'Motorista', 'Aulas particulares', 'Outros serviços'];
 const TIPOS_COMPLEMENTO = ['Passagem', 'Bonificação', 'Hora Extra'];
 const MEIOS_PAGAMENTO = ['Pix', 'Débito', 'Crédito', 'Dinheiro'];
-const nome_recebedor = 'Jaqueline de Santana Ferreira';
+
 
 let nextId = 0;
 export function emptyComplemento() {
