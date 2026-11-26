@@ -3,10 +3,11 @@ import ReceiptForm, { emptyComplemento } from './ReceiptForm.jsx';
 import ReceiptPreview from './ReceiptPreview.jsx';
 import { buildReceiptData } from './format.js';
 
+const name_recebedor = ['Jaqueline de Santana Ferreira'];
 const INITIAL_FORM = {
     title: 'Recibo de pagamento de prestação de serviços',
     pagador: 'Alexandre de Santana de Souza',
-    name: '',
+    name: name_recebedor[0],
     tipo_servico: 'Serviços domésticos',
     description: '',
     forma_pagamento: 'dia',
